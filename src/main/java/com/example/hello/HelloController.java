@@ -11,7 +11,7 @@ import jakarta.ws.rs.QueryParam;
 @Controller
 @RequestScoped
 @Path("hello")
-public class HelloWorldResource {
+public class HelloController {
     @Inject
     private Models models;
 
